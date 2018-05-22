@@ -8,14 +8,12 @@ class Footer extends Component {
   }
   render() {
     return (
-      <footer>
-        <ul className="site-link">
+      <footer className="footer">
+        <div className="container">
           <li>
             &copy; {this.state.year} Kenny and Shan
-          </li>
-        </ul>
-
-    </footer>
+          </li>        </div>
+      </footer>
     )
   }
 }
