@@ -1,25 +1,29 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
+import './Navbar.scss';
+import './Navbar.css';
 
-class Header extends Component {
+
+class NavbarHeader extends Component {
   render() {
     return (
-      <Navbar inverse collapseOnSelect>
+      <Navbar collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="#brand">Shan and Kenny</a>
+            <a className="brand-link" href="#brand">Shan and Kenny 2019</a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
-            <NavItem eventKey={1} href="#">
-              Link
-            </NavItem>
-          </Nav>
-          <Nav pullRight>
             <NavItem eventKey={2} href="#">
-              Link Right
+              About us
+            </NavItem>
+            <NavItem eventKey={2} href="#">
+              Wedding Details
+            </NavItem>
+            <NavItem eventKey={2} href="#">
+              RSVP
             </NavItem>
           </Nav>
         </Navbar.Collapse>
@@ -28,4 +32,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default NavbarHeader;
