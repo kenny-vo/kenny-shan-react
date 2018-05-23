@@ -7,11 +7,8 @@ import './Navbar.css';
 class NavbarHeader extends Component {
   render() {
     return (
-      <Navbar collapseOnSelect>
+      <Navbar collapseOnSelect fixedTop>
         <Navbar.Header>
-          <Navbar.Brand>
-            <a className="brand-link" href="#brand">Shan and Kenny 2019</a>
-          </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
         <Navbar.Collapse>
@@ -22,8 +19,14 @@ class NavbarHeader extends Component {
             <NavItem eventKey={2} href="#">
               Wedding Details
             </NavItem>
+            <NavItem className="home-link" eventKey={2} href="/">
+              Shan and Kenny 2019
+            </NavItem>
             <NavItem eventKey={2} href="#">
               RSVP
+            </NavItem>
+            <NavItem eventKey={2} href="#">
+              Other stuff
             </NavItem>
           </Nav>
         </Navbar.Collapse>
