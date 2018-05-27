@@ -7,6 +7,10 @@
   margin-bottom: 0px !important;
   font-family: 'Savoye', cursive;
   font-size: 18px;
+  border: none!important;
+  border-radius: 0!important;
+  background-color: rgba(0,0,0,0.2)!important;
+  color: white!important;
 
   .navbar-nav {
     display: inline-block;
@@ -23,4 +27,8 @@
   font-size: 25px;
   padding-top: 10px;
   padding-bottom: 2px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff !important;
 }
