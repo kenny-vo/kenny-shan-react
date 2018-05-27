@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="wrapper">
-        <NavbarHeader />
+        {/* <NavbarHeader /> */}
         <section className="hero">
           <div className="container">
             <div className="header-text-box col-xs-12 col-md-4">
@@ -17,7 +17,7 @@ class App extends Component {
             </div>
           </div>
         </section>
-        <section className="about-us">
+        {/* <section className="about-us">
           <div className="container about-text-box">
             <h1 className="about-title">
               About us
@@ -30,7 +30,7 @@ class App extends Component {
               Wedding Detauls
             </h1>
           </div>
-        </section>
+        </section> */}
 
 
       </div>

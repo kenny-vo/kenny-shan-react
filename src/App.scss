@@ -18,6 +18,40 @@
   // height: 800px;
 }
 
+@media only screen and (max-width:768px){
+  .hero{
+    background: url("/images/header-background-pic-750px.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width:414px){
+  .hero{
+    background: url("/images/header-background-pic-mobile.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: auto;
+  }
+  .header-title {
+    padding-top: 144px!important;
+    padding-bottom: 397px!important;;
+  }
+}
+
 .header-text-container {
   padding-top: 20px;
 }
