@@ -12,7 +12,11 @@ class App extends Component {
           <div className="container">
             <div className="header-text-box col-xs-12 col-md-4">
               <h1 className="header-title">
-                SHAN <hr/> KENNY
+                SHAN &amp;	 KENNY
+              </h1>
+              <br/>
+            <h1 className="header-text">
+                SAVE THE DATE
               </h1>
             </div>
           </div>

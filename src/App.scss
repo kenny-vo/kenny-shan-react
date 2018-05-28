@@ -34,26 +34,36 @@
 @media only screen and (max-width:415px){
   .hero{
     background: url("/images/shan-kenny-engagement-600px.jpg");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: auto;
-    min-width: 100% !important;
-    max-height: 100% !important;
-  }
-  .header-title {
-    // padding-top: 144px!important;
-    // padding-bottom: 397px!important;
-    display: none !important;
+    background-size: cover !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    // height: auto;
+    // min-width: 100% !important;
+    // max-height: 100% !important;
   }
 
   .container{
-    padding-bottom: 823px !important;
+    height: 800px!important;
+    // padding-bottom: 823px !important;
+  }
+  .header-title {
+    font-size: 2em!important;
+    padding-top: 25px!important;
+    padding-bottom: 1px!important;
+    margin-bottom: 0px!important;
+  }
+  .header-text{
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 1.5em!important;
+    margin-top: 0;
+    color: white;
+    padding-bottom: 240px;
+    letter-spacing: 8px;
   }
 
 }
@@ -67,14 +77,14 @@
 }
 
 .header-title {
-  font-family: 'Open Sans', cursive;
+  font-family: 'Open Sans';
   font-weight: 900;
   font-size: 5em;
   margin-top: 0;
   color: white;
   padding-top: 280px;
   padding-bottom: 240px;
-  text-shadow: 0 4px 3px rgba(0,0,0,0.4), 0 8px 13px rgba(0,0,0,0.1), 0 18px 23px rgba(0,0,0,0.1);
+  letter-spacing: 8px;
 }
 
 .about-us {
