@@ -6,8 +6,6 @@ import './App.scss';
 
 class App extends Component {
   render() {
-    const currentDate = new Date();
-    const year = (currentDate.getMonth() === 11 && currentDate.getDate() > 23) ? currentDate.getFullYear() + 1 : currentDate.getFullYear();
     return (
       <div className="wrapper">
         {/* <NavbarHeader /> */}
@@ -19,12 +17,6 @@ class App extends Component {
                 <Countdown date={`2019-10-18T00:00:00`} />
               </h1>
               <br/>
-            <h1 className="header-text">
-                SAVE THE DATE
-              </h1>
-
-              {/* <Countdown date={`2019-12-24T00:00:00`} /> */}
-
             </div>
           </div>
         </section>

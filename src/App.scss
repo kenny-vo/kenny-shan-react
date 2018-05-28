@@ -13,7 +13,34 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: auto;
+  height: 100%;
+}
+
+.header-text-container {
+  padding-top: 20px;
+}
+
+.header-text-box {
+  text-align: center;
+}
+
+.header-title {
+  font-family: 'Open Sans';
+  font-weight: 900;
+  font-size: 5em;
+  margin-top: 0;
+  color: white;
+  padding-top: 280px;
+  padding-bottom: 300px;
+  letter-spacing: 8px;
+}
+
+.about-us {
+  height: 500px;
+}
+
+.wedding-details {
+  height: 500px;
 }
 
 @media only screen and (max-width:768px){
@@ -41,14 +68,10 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    // height: auto;
-    // min-width: 100% !important;
-    // max-height: 100% !important;
   }
 
   .container{
     height: 800px!important;
-    // padding-bottom: 823px !important;
   }
   .header-title {
     font-size: 2em!important;
@@ -66,31 +89,4 @@
     letter-spacing: 8px;
   }
 
-}
-
-.header-text-container {
-  padding-top: 20px;
-}
-
-.header-text-box {
-  text-align: center;
-}
-
-.header-title {
-  font-family: 'Open Sans';
-  font-weight: 900;
-  font-size: 5em;
-  margin-top: 0;
-  color: white;
-  padding-top: 280px;
-  padding-bottom: 240px;
-  letter-spacing: 8px;
-}
-
-.about-us {
-  height: 500px;
-}
-
-.wedding-details {
-  height: 500px;
 }
