@@ -13,6 +13,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  box-shadow: inset 0px 80px 60px 0px rgba(0,0,0,0.3);
   height: 100%;
 }
 
@@ -60,7 +61,7 @@
 
 @media only screen and (max-width:415px){
   .hero{
-    background: url("/images/shan-kenny-engagement-27.jpg");
+    background: url("/images/shankennyphoto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -85,8 +86,23 @@
     font-size: 1.5em!important;
     margin-top: 0;
     color: white;
-    padding-bottom: 240px;
+    padding-bottom: 250px;
     letter-spacing: 8px;
+  }
+
+  .Countdown{
+    color: white;
+    font-size: 20px;
+    padding-top: 500px;
+  }
+
+  .rectangle {
+    margin-left: 7%;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+    border-style: solid;
+    border-color: white;
   }
 
 }

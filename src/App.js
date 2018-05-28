@@ -14,8 +14,8 @@ class App extends Component {
             <div className="header-text-box col-xs-12 col-md-4">
               <h1 className="header-title">
                 SHAN &amp; KENNY
-                <Countdown date={`2019-10-18T00:00:00`} />
               </h1>
+              <Countdown date={`2019-10-18T00:00:00`} />
               <br/>
             </div>
           </div>
