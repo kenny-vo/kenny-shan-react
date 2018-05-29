@@ -1,32 +1,34 @@
-// @font-face {
-//   font-family: 'streetlight';
-//   src: url("/public/fonts/streetlight.ttf") format('ttf');
-// }
-// @font-face {
-//   font-family: 'modern-no-20';
-//   src: url("/public/fonts/modern-no-20.ttf") format('ttf');
-// }
 
 @font-face {
   font-family: 'Futurist';
-  src: url(/public/fonts/Futurist.ttf) format('ttf');
+  src: url('/fonts/Futurist.woff') format('woff'),
+       url('/fonts/Futurist.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Caslon';
-    src: url(/public/fonts/CaslonCP.otf) format('otf'),
-         url(/public/fonts/CaslonCPwash.otf) format('otf');
-    font-weight: normal;
-    font-style: normal;
-
+  font-family:'Caslon';
+   src: url('/fonts/casloncp-webfont.woff2') format('woff2'),
+        url('/fonts/casloncp-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
 }
 
-body p{
-  font-family: 'Montserrat', sans-serif;
+@font-face {
+  font-family:'Streetlight';
+   src: url('/fonts/streetlight.woff2') format('woff2'),
+        url('/fonts/streetlight.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
 }
 
-p{
-  font-size: 40px;
+@font-face {
+  font-family:'Modern-Regular';
+   src: url('/fonts/Modern-Regular.woff2') format('woff2'),
+        url('/fonts/Modern-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
 }
 
 .hero {
@@ -39,7 +41,9 @@ p{
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  box-shadow: inset 0px 80px 60px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px 100px 60px 0px rgba(0,0,0,0.4),
+              inset 0px -100px 60px 0px rgba(0,0,0,0.4);
+
   height: 100%;
 }
 
@@ -52,14 +56,22 @@ p{
 }
 
 .header-title {
-  font-family: 'Montserrat', sans-serif;
-  // font-weight: 900;
+  font-family: 'Caslon';
+  font-weight: 400;
   font-size: 5em;
   margin-top: 0;
   color: white;
   padding-top: 280px;
   padding-bottom: 300px;
   letter-spacing: 8px;
+}
+
+.save-date-text{
+  font-family: 'Futurist';
+  color: white;
+  font-size: 13px;
+  margin-top: 0px;
+  // letter-spacing: 1px;
 }
 
 .about-us {
@@ -98,18 +110,20 @@ p{
   }
 
   .container{
-    height: 800px!important;
+    height: 750px!important;
   }
   .header-title {
-    font-size: 2em!important;
-    padding-top: 25px!important;
+    font-size: 3.2em!important;
+    font-weight: 200!important;
+    padding-top: 15px!important;
     padding-bottom: 1px!important;
     margin-bottom: 0px!important;
+    letter-spacing: 2px!important;
   }
   .header-text{
-    font-family: 'Futurist';
+    font-family: 'Caslon';
     font-weight: 900;
-    font-size: 1.5em!important;
+    font-size: 1.3em!important;
     margin-top: 0;
     color: white;
     padding-bottom: 250px;
@@ -118,17 +132,51 @@ p{
 
   .Countdown{
     color: white;
-    font-size: 20px;
-    padding-top: 500px;
+    padding-top: 8px;
+    font-size: 10px;
   }
 
-  .rectangle {
-    margin-left: 7%;
-    text-align: center;
-    width: 300px;
-    height: 50px;
-    border-style: solid;
-    border-color: white;
+  .save-date-text{
+    font-family: 'Modern-Regular';
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    padding-top: 2px;
+  }
+
+  .the-text{
+    font-family: 'Streetlight';
+    font-size: 18px;
+    font-weight: lighter;
+  }
+
+  .date-text{
+    font-family: 'Caslon';
+    font-weight: lighter;
+    font-size: 13px;
+  }
+
+  .location-text{
+    font-family: 'Caslon';
+    padding-top: 530px;
+    padding-left: 4px;
+    color: white;
+    margin-bottom: 2px;
+    font-size: 22px;
+    letter-spacing: 9px;
+  }
+
+  .details-text{
+    font-family: 'Futurist';
+    margin-top: 0px;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .countdown{
+    letter-spacing: 0px;
+    padding-top: 8px;
   }
 
 }

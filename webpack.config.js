@@ -15,7 +15,7 @@ module.exports = {
       },
       {
         test:/\.(eot|svg|ttf|woff|woff2)$/,
-        loader: 'public/fonts/Futurist.ttf'
+        loader: 'public/fonts/casloncp-webfont.woff2'
       },
       {
         test: /\.js$/,

@@ -13,10 +13,22 @@ class App extends Component {
           <div className="container">
             <div className="header-text-box col-xs-12 col-md-4">
               <h1 className="header-title">
-                SHAN &amp; KENNY
+                shan &amp; kenny
               </h1>
-              {/* <p>SHAN AND KENNY</p> */}
-              <Countdown date={`2019-10-18T00:00:00`} />
+              <h3 className="save-date-text">
+                save <span className="the-text">the  </span>date |
+                <span className="date-text"> 10. 18. 19</span>
+              </h3>
+
+              <h2 className="location-text">
+                AUSTIN, TX
+              </h2>
+              <h3 className="details-text">
+                DETAILS TO FOLLOW
+                <span className="countdown">
+                <Countdown date={`2019-10-18T00:00:00`} />
+                </span>
+              </h3>
               <br/>
             </div>
           </div>
