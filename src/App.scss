@@ -13,11 +13,21 @@
 }
 
 @font-face {
-  font-family: 'Caslon';
-  src: url(/public/fonts/CaslonCP.otf) format('otf');
+    font-family: 'Caslon';
+    src: url(/public/fonts/CaslonCP.otf) format('otf'),
+         url(/public/fonts/CaslonCPwash.otf) format('otf');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
+body p{
+  font-family: 'Montserrat', sans-serif;
+}
 
+p{
+  font-size: 40px;
+}
 
 .hero {
   background: url("/images/header-background-pic.jpg");
@@ -42,7 +52,7 @@
 }
 
 .header-title {
-  font-family: 'Caslon', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   // font-weight: 900;
   font-size: 5em;
   margin-top: 0;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavbarHeader from './components/Navbar';
+// import NavbarHeader from './components/Navbar';
 import Countdown from './components/Countdown';
 import './App.css';
 import './App.scss';
@@ -15,6 +15,7 @@ class App extends Component {
               <h1 className="header-title">
                 SHAN &amp; KENNY
               </h1>
+              {/* <p>SHAN AND KENNY</p> */}
               <Countdown date={`2019-10-18T00:00:00`} />
               <br/>
             </div>
