@@ -1,7 +1,23 @@
+// @font-face {
+//   font-family: 'streetlight';
+//   src: url("/public/fonts/streetlight.ttf") format('ttf');
+// }
+// @font-face {
+//   font-family: 'modern-no-20';
+//   src: url("/public/fonts/modern-no-20.ttf") format('ttf');
+// }
+
 @font-face {
-  font-family: 'Savoye';
-  src: url("/public/fonts/Savoye-font.ttf") format('ttf');
+  font-family: 'Futurist';
+  src: url(/public/fonts/Futurist.ttf) format('ttf');
 }
+
+@font-face {
+  font-family: 'Caslon';
+  src: url(/public/fonts/CaslonCP.otf) format('otf');
+}
+
+
 
 .hero {
   background: url("/images/header-background-pic.jpg");
@@ -26,8 +42,8 @@
 }
 
 .header-title {
-  font-family: 'Open Sans';
-  font-weight: 900;
+  font-family: 'Caslon', sans-serif;
+  // font-weight: 900;
   font-size: 5em;
   margin-top: 0;
   color: white;
@@ -81,7 +97,7 @@
     margin-bottom: 0px!important;
   }
   .header-text{
-    font-family: 'Open Sans';
+    font-family: 'Futurist';
     font-weight: 900;
     font-size: 1.5em!important;
     margin-top: 0;
