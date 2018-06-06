@@ -1,11 +1,32 @@
 import React, {Component} from 'react';
 // import NavbarHeader from './components/Navbar';
 import Countdown from './components/Countdown';
+import AddToCalendar from 'react-add-to-calendar';
 import './App.css';
 import './App.scss';
 
 class App extends Component {
+
+  static displayName = 'Wedding ';
+  state = {
+    event: {
+      title: 'Shan & Kennys Wedding',
+      description: 'Shan and Kenny Wedding in Austin, TX',
+      location: 'Austin, TX',
+      startTime: '2019-10-18T20:15:00-04:00',
+      endTime: '2019-10-19T21:45:00-04:00'
+    }
+  };
   render() {
+    let icon = { 'fa fa-calendar': 'right' };
+    let items = [
+       { google: 'Google' },
+       { apple: 'Apple Calendar' },
+       { yahoo: 'Yahoo' },
+       { outlook: 'Outlook' },
+       { outlookcom: 'Outlook.com' },
+    ];
+
     return (
       <div className="wrapper">
         {/* <NavbarHeader /> */}
@@ -20,9 +41,13 @@ class App extends Component {
                   save
                   <span className="the-text">
                     {" "}the{" "}
-                  </span>date |
+                  </span>date
                   <span className="date-text">
-                    10. 18. 19</span>
+                  <AddToCalendar event={this.state.event}
+                    buttonLabel="10. 18. 19"
+                    buttonTemplate={icon}
+                    listItems={items} />
+                </span>
                 </h3>
               </div>
               <div className="details-row">
@@ -32,7 +57,8 @@ class App extends Component {
                     AUSTIN, TX
                   </h2>
                   <h3 className="details-text">
-                    DETAILS TO FOLLOW {/* <span className="countdown">
+                    DETAILS TO FOLLOW
+                    {/* <span className="countdown">
                   <Countdown date={`2019-10-18T00:00:00`} />
                   </span> */}
                   </h3>
