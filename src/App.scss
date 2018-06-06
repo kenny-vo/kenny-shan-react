@@ -84,14 +84,16 @@
 
   .the-text {
     font-family: 'Streetlight';
-    font-size: 18px;
+    font-size: 21px;
     font-weight: lighter;
+    vertical-align: middle;
+
   }
 
   .date-text {
     font-family: 'Caslon';
     font-weight: 800;
-    font-size: 19px;
+    font-size: 22px;
   }
 
   .location-text {
@@ -162,7 +164,7 @@
   }
 
   .save-date-text {
-    font-family: 'Futurist';
+    font-family: 'Modern-Regular';
     color: white;
     font-size: 13px;
     margin-top: 0;
@@ -227,8 +229,10 @@
 
   .the-text {
     font-family: 'Streetlight';
-    font-size: 18px;
+    font-size: 21px;
     font-weight: lighter;
+    vertical-align: middle;
+
   }
 
   .date-text {
@@ -276,15 +280,19 @@
     font-size: 5em;
     margin-top: 0;
     color: white;
-    padding-top: 23px !important;
+    padding-top: 32px !important;
     letter-spacing: 8px;
   }
 
   .save-date-text {
-    font-family: 'Futurist';
+    font-family: 'Modern-Regular';
     color: white;
-    font-size: 13px;
+    font-size: 20px;
     margin-top: 0;
+  }
+
+  .date-text {
+    font-size: 19px;
   }
 
   .header-text-container {
@@ -296,7 +304,7 @@
   }
 
   .location-text {
-    padding-top: 633px;
+    padding-top: 533px;
   }
 
   .details-row{
@@ -396,7 +404,7 @@
 
 
   .location-text {
-    padding-top: 548px !important;
+    padding-top: 518px !important;
   }
 }
 @media only screen and (max-width:375px) and (max-height: 812px) {

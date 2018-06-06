@@ -40,6 +40,16 @@ class App extends Component {
                 <h3 className="save-date-text">
                   save
                   <span className="the-text">
+                    {" "}<i>the</i>{" "}
+                  </span>
+                  date |
+                  <span className="date-text">
+                    {" "}
+                    10. 18. 19</span>
+                </h3>
+                {/* <h3 className="save-date-text">
+                  save
+                  <span className="the-text">
                     {" "}the{" "}
                   </span>date
                   <span className="date-text">
@@ -48,7 +58,7 @@ class App extends Component {
                     buttonTemplate={icon}
                     listItems={items} />
                 </span>
-                </h3>
+                </h3> */}
               </div>
               <div className="details-row">
                 <div className="details-div">
