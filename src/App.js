@@ -25,9 +25,9 @@ class App extends Component {
               </h2>
               <h3 className="details-text">
                 DETAILS TO FOLLOW
-                <span className="countdown">
+                {/* <span className="countdown">
                 <Countdown date={`2019-10-18T00:00:00`} />
-                </span>
+                </span> */}
               </h3>
               <br/>
             </div>
