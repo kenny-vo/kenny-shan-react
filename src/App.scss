@@ -55,10 +55,11 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: inset 0px 100px 60px 0px rgba(0,0,0,0.4),
+                inset 0px -100px 60px 0px rgba(0,0,0,0.4);
     height: auto;
   }
 
