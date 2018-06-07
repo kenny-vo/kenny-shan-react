@@ -35,6 +35,9 @@ class App extends Component {
             <div className="row">
               <div className="header-text-box col-xs-12">
                 <h1 className="header-title">
+                  shan <br/>&amp; kenny
+                </h1>
+                <h1 className="header-title-responsive">
                   shan &amp; kenny
                 </h1>
                 <h3 className="save-date-text">
