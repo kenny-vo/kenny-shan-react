@@ -243,7 +243,7 @@
 }
 @media only screen and (max-width:415px) {
   .hero {
-    background: url("/images/shankennyphoto-mobile-background.jpg");
+    background: url("/images/shankennyphoto.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -352,7 +352,7 @@
     font-size: 5em;
     margin-top: 0;
     color: white;
-    padding-top: 32px !important;
+    padding-top: 10px !important;
     letter-spacing: 8px;
   }
 
@@ -372,7 +372,7 @@
   }
 
   .header-text-container {
-    padding-top: 20px;
+    padding-top: 10px;
   }
 
   .header-text-box {
