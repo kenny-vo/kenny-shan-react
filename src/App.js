@@ -35,7 +35,10 @@ class App extends Component {
             <div className="row">
               <div className="header-text-box col-xs-12">
                 <h1 className="header-title">
-                  shan <br/>&amp; kenny
+                  shan
+                </h1>
+                <h1 className="amp-title">
+                  &amp; kenny
                 </h1>
                 <h1 className="header-title-responsive">
                   shan &amp; kenny
@@ -43,9 +46,9 @@ class App extends Component {
                 <h3 className="save-date-text">
                   save
                   <span className="the-text">
-                    {" "}<i>the</i>{" "}
+                    {" "}<i>the</i>
                   </span>
-                  date |
+                  {" "}date |
                   <span className="date-text">
                     {" "}
                     10. 18. 19</span>

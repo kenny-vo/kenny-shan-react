@@ -78,7 +78,17 @@
     font-weight: 100;
     padding-top: 15px !important;
     padding-bottom: 1px !important;
-    margin-top: 100px !important;
+    margin-top: 110px !important;
+    margin-bottom: 0px !important;
+    letter-spacing: 2px!important;
+  }
+
+  .amp-title{
+    font-family: 'Caslon';
+    font-size: 5.5em;
+    font-weight: 100;
+    padding-bottom: 1px !important;
+    margin-top: -10px !important;
     margin-bottom: 0px !important;
     letter-spacing: 2px!important;
   }
@@ -112,15 +122,18 @@
     font-size: 26px;
     font-weight: lighter;
     letter-spacing: 9px;
-    padding-top: 2px;
+    padding-top: 0px;
+    padding-left: 6px;
+    margin-top: 0px;
   }
 
   .the-text {
+    position: relative;
     font-family: 'Streetlight';
-    font-size: 21px;
+    font-size: 28px;
     font-weight: lighter;
-    vertical-align: middle;
-
+    letter-spacing: 0px;
+    top: 5px;
   }
 
   .date-text {
@@ -139,7 +152,7 @@
   }
 
   .details-row{
-    padding-top: 580px;
+    padding-top: 665px;
     text-align: center;
   }
 
@@ -192,6 +205,17 @@
     letter-spacing: 2px!important;
   }
 
+  .amp-title{
+    font-family: 'Caslon';
+    font-size: 5.5em;
+    font-weight: 100;
+    padding-bottom: 1px !important;
+    margin-top: -10px !important;
+    margin-bottom: 0px !important;
+    letter-spacing: 2px!important;
+  }
+
+
   .header-title-responsive{
     display: none;
   }
@@ -229,6 +253,9 @@
     font-size: 21px;
     font-weight: lighter;
     vertical-align: middle;
+    position: relative;
+    top: 3px;
+    letter-spacing: 0px;
 
   }
 
@@ -298,6 +325,10 @@
     display: none;
   }
 
+  .amp-title{
+    display: none;
+  }
+
   .header-text {
     font-family: 'Caslon';
     font-weight: 900;
@@ -327,10 +358,13 @@
 
   .the-text {
     font-family: 'Streetlight';
-    font-size: 27px;
+    font-size: 35px;
     font-weight: lighter;
     vertical-align: middle;
-
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    letter-spacing: 0px;
   }
 
   .date-text {
@@ -373,6 +407,7 @@
     height: 100vh;
   }
 
+
   .header-title-responsive {
     font-size: 3.5em!important;
     font-weight: 200!important;
@@ -383,6 +418,9 @@
   }
 
   .header-title{
+    display: none;
+  }
+  .amp-title{
     display: none;
   }
 
@@ -427,7 +465,10 @@
     font-size: 21px;
     font-weight: lighter;
     vertical-align: middle;
-
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    letter-spacing: 0px;
   }
 
   .date-text {
@@ -482,6 +523,9 @@
   .header-title{
     display: none;
   }
+  .amp-title{
+    display: none;
+  }
 
   .save-date-text {
     font-family: 'Modern-Regular';
@@ -529,6 +573,9 @@
   .header-title{
     display: none;
   }
+  .amp-title{
+    display: none;
+  }
 
   .save-date-text {
     font-family: 'Modern-Regular';
@@ -569,6 +616,9 @@
   }
 
   .header-title{
+    display: none;
+  }
+  .amp-title{
     display: none;
   }
 
@@ -635,6 +685,9 @@
   }
 
   .header-title{
+    display: none;
+  }
+  .amp-title{
     display: none;
   }
 
@@ -711,5 +764,9 @@
     font-size: 13px;
     margin-top: 0;
     padding-top: 0px;
+  }
+
+  .the-text{
+    font-size: 15px;
   }
 }
