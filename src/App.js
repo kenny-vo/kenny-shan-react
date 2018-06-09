@@ -11,7 +11,7 @@ class App extends Component {
   state = {
     event: {
       title: 'Shan & Kennys Wedding',
-      description: 'Shan and Kenny Wedding in Austin, TX',
+      description: 'Shan and Kenny Wedding in ATX',
       location: 'Austin, TX',
       startTime: '2019-10-18T20:15:00-04:00',
       endTime: '2019-10-19T21:45:00-04:00'
@@ -50,19 +50,10 @@ class App extends Component {
                     {" "}
                     10. 18. 19</span>
                 </h3>
-                {/* <h3 className="save-date-text">
-                  save
-                  <span className="the-text">
-                    {" "}the{" "}
-                  </span>date
-                  <span className="date-text">
-                  <AddToCalendar event={this.state.event}
-                    buttonLabel="10. 18. 19"
-                    buttonTemplate={icon}
-                    listItems={items} />
-                </span>
-                </h3> */}
               </div>
+              {/* <div className="countdown-row container">
+                  <Countdown date={`2019-10-18T00:00:00`} />
+              </div> */}
               <div className="details-row">
                 <div className="details-div">
 
@@ -71,11 +62,12 @@ class App extends Component {
                   </h2>
                   <h3 className="details-text">
                     DETAILS TO FOLLOW
-                    {/* <span className="countdown">
-                  <Countdown date={`2019-10-18T00:00:00`} />
-                  </span> */}
-                  </h3>
+                    {/* <AddToCalendar event={this.state.event}
+                      buttonLabel=""
+                      buttonTemplate={icon}
+                      listItems={items} /> */}
 
+                  </h3>
                 </div>
               </div>
             </div>
