@@ -411,7 +411,7 @@
   .header-title-responsive {
     font-size: 3.5em!important;
     font-weight: 200!important;
-    padding-top: 15px !important;
+    padding-top: 1px !important;
     padding-bottom: 1px !important;
     margin-bottom: 0px !important;
     letter-spacing: 2px!important;
@@ -516,7 +516,7 @@
     font-size: 5em;
     margin-top: 0;
     color: white;
-    padding-top: 28px !important;
+    padding-top: 18px !important;
     letter-spacing: 8px;
   }
 
@@ -547,7 +547,7 @@
   }
 
   .location-text {
-    padding-top: 616px;
+    padding-top: 621px;
   }
 
   .details-row{
@@ -645,8 +645,11 @@
   }
 }
 @media only screen and (max-width:375px) and (max-height: 667px) {
+  .header-title-responsive{
+    padding-top: 10px!important;
+  }
   .header-text {
-    padding-top: 5px !important;
+    padding-top: 0px !important;
   }
 
   .header-text-container {
@@ -669,7 +672,7 @@
 
 
   .location-text {
-    padding-top: 540px !important;
+    padding-top: 560px !important;
   }
 }
 @media only screen and (max-width:375px) and (max-height: 812px) {
@@ -744,7 +747,7 @@
   }
 
   .location-text {
-    padding-top: 453px !important;
+    padding-top: 463px !important;
   }
 
   .header-text-container {
