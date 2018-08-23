@@ -5,6 +5,8 @@ import AddToCalendar from 'react-add-to-calendar';
 import './App.css';
 import './App.scss';
 
+
+
 class App extends Component {
 
   static displayName = 'Wedding ';
@@ -17,6 +19,12 @@ class App extends Component {
       endTime: '2019-10-19T21:45:00-04:00'
     }
   };
+
+  isFacebookApp() {
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+    return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1);
+  }
+
   render() {
     let icon = { 'fa fa-calendar': 'right' };
     let items = [
